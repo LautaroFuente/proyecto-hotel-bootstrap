@@ -1,0 +1,153 @@
+/***** Custom Properties *****/
+
+:root {
+  --link-color:rgb(255, 255, 255);
+  --link-active-color:rgb(156, 82, 33);
+  --bg-color:rgb(209, 209, 209);
+  --tittle-color:rgb(116, 72, 50);
+  }
+
+/***** Reset Styles *****/
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-color);
+}
+
+html{
+  font-size: 0.6rem;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+/***** Bootstrap Styles *****/
+
+.nav-link{
+  margin: 1rem;
+  font-weight: bold;
+  color: var(--link-color);
+  transition: all .3s ease-in-out;
+}
+
+.nav-link:hover{
+  color: var(--link-active-color);
+}
+
+/***** My Styles *****/
+
+.btn-contact{
+  width: 5rem;
+  height: 5rem;
+}
+
+.btn-color{
+  background-color: var(--tittle-color)
+}
+
+.fest img{
+  width: 50%;
+  height: auto;
+}
+
+.food img{
+  width:50%;
+  height: auto;
+}
+
+.list-footer{
+  list-style: none;
+}
+
+.list-footer__item{
+  color: white;
+}
+
+.logo{
+  width: 4rem;
+  height: auto;
+}
+
+.logo-link{
+  padding: 0;
+  margin: 0;
+}
+
+.menu li{
+  height: 4rem;
+}
+
+.room img{
+  width: 40%;
+  height: auto;
+}
+
+.services img{
+  width: 6rem;
+  height: auto;
+  margin: 2rem;
+}
+
+.star img{
+  width: 4rem;
+  height: auto;
+}
+
+.tittle{
+  color: var(--tittle-color);
+}
+
+#programas, #habitaciones, #restaurante, #entorno, #evento {
+  scroll-margin-top: 6rem;
+}
+
+/***** Medias queries *****/
+
+/* Small devices */
+@media (min-width: 576px){
+  #programas, #habitaciones, #restaurante, #entorno, #evento {
+    scroll-margin-top: 11rem;
+  }
+}
+
+/* Medium devices */
+@media (min-width: 768px){
+  html{
+    font-size: 0.8rem;
+  }
+
+  img{
+    width: 60%;
+    height: auto;
+  }
+
+  .food img{
+    width:25%;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .fest img{
+    width: 45%;
+    height: auto;
+  }
+}
+
+/* Large devices */
+@media (min-width: 992px){
+    
+}
+
+/* X-Large devices */
+@media (min-width: 1200px){
+  html{
+    font-size: 1rem;
+  }
+}
+
+/* XX-Large devices */
+@media (min-width: 1400px){
+    
+}
